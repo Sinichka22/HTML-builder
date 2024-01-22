@@ -1,6 +1,6 @@
 const fs = require('fs');
 const readline = require('readline');
-const path = require('node:path');
+const path = require('path');
 
 function createFile() {
   fs.open('02-write-file.txt', 'w', (err) => {
